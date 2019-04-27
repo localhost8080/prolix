@@ -1,0 +1,11 @@
+sftp-config.json
+.DS_Store
+.buildpath
+.settings
+.project
+.buildpath
+*.prefs
+scopes
+.idea
+.vscode
+.vagrant

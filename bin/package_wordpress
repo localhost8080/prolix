@@ -1,0 +1,17 @@
+#!/bin/sh
+/usr/local/bin/deploy_wordpress
+/usr/local/bin/get_bootswatch
+/usr/local/bin/get_mdb
+cd /var/www/vhosts/development/wp-content/themes/prolix
+zip -r prolix *
+zip -d prolix.zip phpci.yml
+zip -d prolix.zip .travis.yml
+zip -d prolix.zip ruleset.xml
+zip -d prolix.zip .git
+zip -d prolix.zip documentation
+zip -d prolix.zip bin
+zip -d prolix.zip Vagrantfile
+#mutt -s 'successful prolix build' -a prolix.zip -- development@jonathansblog.co.uk < /dev/null
+#rm -f prolix.zip
+mv prolix.zip ~/Desktop
+generate_changelogs

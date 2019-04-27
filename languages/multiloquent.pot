@@ -1,0 +1,232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-14 14:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: front-page.php:25 front-page.php:25
+msgid "Read the rest of this page &raquo;"
+msgstr ""
+
+#: front-page.php:34 home.php:22 front-page.php:34 home.php:22
+msgid "Featured Posts"
+msgstr ""
+
+#: template-category-index.php:13 template-category-index.php:13
+msgid "Category List"
+msgstr ""
+
+#: yarpp-template-prolix.php:16 yarpp-template-prolix.php:16
+#, php-format
+msgid "Other Posts related to %s"
+msgstr ""
+
+#: yarpp-template-prolix.php:34 yarpp-template-prolix.php:34
+msgid "No related posts."
+msgstr ""
+
+#: template-tag-index.php:12 template-tag-index.php:12
+msgid "Tags List"
+msgstr ""
+
+#: tag.php:22 archive.php:33 index.php:23 tag.php:22 index.php:23
+#: archive.php:33
+#, php-format
+msgid "Posts Tagged %s"
+msgstr ""
+
+#: tag.php:31 tag.php:31
+#, php-format
+msgid "There are %1$s posts tagged %2$s"
+msgstr ""
+
+#: tag.php:55 archive.php:90 category.php:50 author.php:75 author.php:79
+#: category.php:50 author.php:79 tag.php:55 archive.php:90
+msgid "Previous Entries"
+msgstr ""
+
+#: tag.php:56 archive.php:91 category.php:51 author.php:76 author.php:80
+#: category.php:51 author.php:80 tag.php:56 archive.php:91
+msgid "Next Entries"
+msgstr ""
+
+#: error-snippet.php:21 error-snippet.php:21
+msgid "I dont have anything that matches (or nearly matches) that"
+msgstr ""
+
+#: error-snippet.php:29 error-snippet.php:29
+#, php-format
+msgid ""
+"you might want to use the search or go to the <a title=\"%1$s\" href=\"%2$s"
+"\">homepage</a>"
+msgstr ""
+
+#: single.php:48 single.php:50 single.php:50
+#, php-format
+msgid "Tags for %s"
+msgstr ""
+
+#: comments.php:29 comments.php:29
+msgid "&larr; Older comments"
+msgstr ""
+
+#: comments.php:34 comments.php:34
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: comments.php:50 comments.php:71 comments.php:50 comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:88 comments.php:88
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: archive.php:38 archive.php:43 archive.php:48 index.php:28 index.php:33
+#: index.php:38 index.php:28 index.php:33 index.php:38 archive.php:38
+#: archive.php:43 archive.php:48
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: archive.php:53 index.php:43 index.php:43 archive.php:53
+msgid "Search Results"
+msgstr ""
+
+#: archive.php:57 index.php:47 index.php:47 archive.php:57
+msgid "All entries by this author"
+msgstr ""
+
+#: archive.php:61 index.php:51 index.php:51 archive.php:61
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:65 index.php:55 index.php:55 archive.php:65
+msgid "Recent Posts"
+msgstr ""
+
+#: metadata.php:20 metadata.php:26 metadata.php:20 metadata.php:26
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: page.php:52 page.php:54 page.php:54
+#, php-format
+msgid "Comments for %s"
+msgstr ""
+
+#: category.php:26 category.php:26
+#, php-format
+msgid "There are %1$s posts in the %2$s category"
+msgstr ""
+
+#: prolix-base.php:157 prolix-base.php:109
+#: prolix-base.php:152
+msgid "prolix Settings"
+msgstr ""
+
+#: prolix-base.php:160 prolix-base.php:110
+#: prolix-base.php:155
+msgid "Excerpt or tags in featured posts"
+msgstr ""
+
+#: prolix-base.php:161 prolix-base.php:111
+#: prolix-base.php:156
+msgid "bootswatch"
+msgstr ""
+
+#: prolix-base.php:162 prolix-base.php:112
+#: prolix-base.php:157
+msgid "Main Elements Background Color"
+msgstr ""
+
+#: prolix-base.php:163 prolix-base.php:113
+#: prolix-base.php:158
+msgid "Main Elements Text Color"
+msgstr ""
+
+#: prolix-base.php:164 prolix-base.php:114
+#: prolix-base.php:159
+msgid "Main Elements Link Color"
+msgstr ""
+
+#: prolix-base.php:165 prolix-base.php:115
+#: prolix-base.php:160
+msgid "Body Background Color"
+msgstr ""
+
+#: prolix-base.php:166 prolix-base.php:116
+#: prolix-base.php:161
+msgid "Body Text Color"
+msgstr ""
+
+#: prolix-base.php:167 prolix-base.php:117
+#: prolix-base.php:162
+msgid "Slide Menu Background Color"
+msgstr ""
+
+#: prolix-base.php:168 prolix-base.php:118
+#: prolix-base.php:163
+msgid "Slide Menu Text Color"
+msgstr ""
+
+#: prolix-base.php:198 prolix-base.php:138
+#: prolix-base.php:193
+msgid "Select Bootswatch style:"
+msgstr ""
+
+#: prolix-base.php:225 prolix-base.php:141
+#: prolix-base.php:220
+msgid "Select Featured posts style:"
+msgstr ""
+
+#: prolix-base.php:457 prolix-base.php:331
+#: prolix-base.php:451
+msgid "Untitled Post"
+msgstr ""
+
+#: prolix-base.php:487 prolix-base.php:361
+#: prolix-base.php:483
+msgid "Home"
+msgstr ""
+
+#: prolix-base.php:502 prolix-base.php:392
+#: prolix-base.php:512
+msgid "Tag: "
+msgstr ""
+
+#: prolix-base.php:505 prolix-base.php:395
+#: prolix-base.php:515
+msgid "404 - Page not Found"
+msgstr ""
+
+#: footer.php:44 footer.php:44
+msgid "Useful Stuff"
+msgstr ""
+
+#: footer.php:59 footer.php:59
+msgid "More Useful Stuff"
+msgstr ""
+
+#: author.php:26 author.php:28 author.php:28
+msgid "Website: "
+msgstr ""
+
+#: author.php:38 author.php:42 author.php:42
+#, php-format
+msgid "Post count: %s"
+msgstr ""
