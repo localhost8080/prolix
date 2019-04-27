@@ -239,8 +239,6 @@ class prolixBase
      */
     public function prolix_scripts_method()
     {
-
-        $mods = get_theme_mods();
         wp_enqueue_script(
             'menu',
             get_template_directory_uri() . '/menu.js',
@@ -505,8 +503,7 @@ class prolixBase
      */
     public function prolix_get_random_solid_class($class = '')
     {
-        $mods = get_theme_mods();
-        if (! empty($mods['bootswatch']) && $mods['bootswatch'] != 'default') {
+   
             // if it uses one of the bootswatch themes, use the bootstrap colours
             $input = array(
                 'bg-primary',
@@ -516,20 +513,7 @@ class prolixBase
                 'bg-danger',
                 'bg-default',
             );
-        } else {
-            $input = array(
-                'swatch-red',
-                'swatch-orange',
-                'swatch-yellow',
-                'swatch-green',
-                'swatch-teal',
-                'swatch-blue',
-                'swatch-violet',
-                'swatch-pink',
-                'swatch-mid-gray',
-                'swatch-gray',
-            );
-        }
+   
         $apps = array(
             'phone',
             'appstore',
@@ -570,8 +554,7 @@ class prolixBase
      */
     public function prolix_get_random_blue_class($class = '')
     {
-        $mods = get_theme_mods();
-        
+               
         $input = array(
             'bg-primary',
             'bg-success',
@@ -622,8 +605,7 @@ class prolixBase
      */
     public function prolix_get_random_colour_class($class = '')
     {
-        $mods = get_theme_mods();
-      
+   
         $input = array(
             'bg-primary',
             'bg-success',
