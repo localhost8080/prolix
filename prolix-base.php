@@ -782,7 +782,7 @@ class prolixBase
                     break;
             }
             $output .= '<div class="paralax_image_text"><span class="h1"><a href="' . get_permalink($val->ID) . '">' . trim(stripslashes($this->prolix_post_title($val->ID))) . '</a></span>';
-            $output .= '<p>';
+            $output .= '<p class="tag-cloud">';
             // get tags function call in here
             $output .= $this->prolix_render_tags($val);
             $output .= '</p>';
@@ -937,7 +937,7 @@ public function prolix_get_featured_posts($total_posts){
 				<?php echo $this->prolix_post_title(); ?>
 			</a>
 		</span>
-		<p>
+		<p class="tag-cloud">
 			<?php echo $this->prolix_render_tags($post); ?>
 		</p>
 	</div>
