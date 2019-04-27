@@ -30,7 +30,7 @@ if ( ! empty( $user_url ) ) {
 echo '</span>';
 echo '<span class="day ' . get_the_time( 'M' ) . '"> <span class="fa fa-calendar fa-fw"></span> <time itemprop="datePublished" datetime="' . get_the_time( 'c' ) . '">' . get_the_time( 'M jS, Y' ) . '</time>';
 if ( get_the_time( 'c' ) != get_the_modified_time( 'c' ) ) {
-	echo '<span class="fa fa-refresh fa-fw"></span> <time itemprop="dateModified" datetime="' . get_the_modified_time( 'c' ) . '">' . get_the_modified_time( 'M jS, Y' ) . '</time>';
+	echo '<span class="d-none d-lg-block d-xl-block fa fa-refresh fa-fw"></span> <time class="d-none d-lg-block d-xl-block" itemprop="dateModified" datetime="' . get_the_modified_time( 'c' ) . '">' . get_the_modified_time( 'M jS, Y' ) . '</time>';
 }
 echo '</span> ';
 edit_post_link();

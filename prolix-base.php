@@ -475,22 +475,22 @@ class prolixBase
             }
         }
         if (is_single()) {
-            $return .= '<li class="breadcrumb-item">' . $this->prolix_post_title() . '</li>';
+            $return .= '<li class="breadcrumb-item d-none d-lg-block d-xl-block">' . $this->prolix_post_title() . '</li>';
         }
         if (is_page()) {
-            $return .= '<li class="breadcrumb-item">' . $this->prolix_post_title() . '</li>';
+            $return .= '<li class="breadcrumb-item d-none d-lg-block d-xl-block">' . $this->prolix_post_title() . '</li>';
         }
         if (is_tag()) {
-            $return .= '<li class="breadcrumb-item">' . esc_html__('Tag: ', 'prolix') . single_tag_title('', false) . '</li>';
+            $return .= '<li class="breadcrumb-item d-none d-lg-block d-xl-block">' . esc_html__('Tag: ', 'prolix') . single_tag_title('', false) . '</li>';
         }
         if (is_404()) {
-            $return .= '<li class="breadcrumb-item">' . esc_html__('404 - Page not Found', 'prolix') . '<li>';
+            $return .= '<li class="breadcrumb-item d-none d-lg-block d-xl-block">' . esc_html__('404 - Page not Found', 'prolix') . '<li>';
         }
         if (is_search()) {
-            $return .= '<li class="breadcrumb-item">Search</li>';
+            $return .= '<li class="breadcrumb-item d-none d-lg-block d-xl-block">Search</li>';
         }
         if (is_year()) {
-            $return .= '<li class="breadcrumb-item">' . get_the_time('Y') . '</li>';
+            $return .= '<li class="breadcrumb-item d-none d-lg-block d-xl-block">' . get_the_time('Y') . '</li>';
         }
         return $return;
     }
