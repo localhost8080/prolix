@@ -1132,4 +1132,11 @@ pre[class*="language-"] {
   max-width: none;
   max-height: none;
 }
+pre > code[class*="language-"] {
+  background: #272822;
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
 /*# sourceMappingURL=style.css.map */
