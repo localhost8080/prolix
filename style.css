@@ -30,6 +30,11 @@ body {
   background-color: #fff;
   margin-top: 72px;
 }
+@media (max-width: 979px) {
+  body {
+    margin-top: 60px;
+  }
+}
 @media (min-width: 1200px) {
   .container {
     width: 90%;
